@@ -1,0 +1,39 @@
+{
+  "name": "sfrvotingbot",
+  "version": "1.0.0",
+  "description": "Voting bot for the SFR token",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Reazul Iqbal",
+  "license": "MIT",
+  "nodemonConfig": {
+    "ignore": [
+      "state.json",
+      "whitelist.json"
+    ]
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "axios": "^0.19.0",
+    "common-tags": "^1.8.0",
+    "discord.js": "github:discordjs/discord.js",
+    "dotenv": "^8.1.0",
+    "dsteem": "^0.11.3",
+    "require-all": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeBull/SFRVotingBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeBull/SFRVotingBot/issues"
+  },
+  "homepage": "https://github.com/CodeBull/SFRVotingBot#readme"
+}

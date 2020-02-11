@@ -3,8 +3,8 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 let SE_CHAIN_ID = 'ssc-mainnet1';
-let SE_RPC = 'https://api.steem-engine.com/rpc/contracts';
-let SE_HISTORY = 'https://api.steem-engine.com/accounts/history';
+let SE_RPC = 'https://api.steem-engine.com/rpc2/contracts';
+let SE_HISTORY = 'https://history.steem-engine.com/accountHistory';
 
 if (process.env.NODE_ENV !== 'production') {
   SE_CHAIN_ID = 'ssc-00000000000000000002';

@@ -222,8 +222,7 @@ const vote = async (author, permlink, weight, retries = 0) => {
       .then(() => {
         log(`Voted @${author}/${permlink} with ${weight / 100}% weight.`);
       })
-      .catch((e) => {
-        console.log(e);
+      .catch(() => {
         if (retries < 2) {
           setTimeout(() => { vote(author, permlink, weight, retries + 1); }, 10000);
         } else {

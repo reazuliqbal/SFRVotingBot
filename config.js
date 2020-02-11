@@ -44,6 +44,7 @@ module.exports = {
     min_age: 'Refund for invalid bid: {amount} - Posts cannot be less than {min_age} minutes old.',
     invalid_post_url: 'Refund for invalid bid: {amount} - Invalid post URL in memo.',
     not_whitelisted: 'Refund for invalid bid: {amount} - You are not whitelisted. Please contact SFR team.',
+    partial_bid: 'Partial refund: - {amount} - You bid exceeded our max vote value.',
   },
   WHITELIST_MANAGER: ['Admin', 'Flag Rewards Admin', 'SFR Moderator'],
 };
